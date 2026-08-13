@@ -82,19 +82,11 @@
   box-shadow: var(--shadow-lg);
 }
 
-.hero-avatar {
+.hero-photo {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   border-radius: calc(var(--radius-lg) - 6px);
-  background: linear-gradient(150deg, var(--color-primary-soft), var(--color-surface));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 4rem;
-  font-weight: 700;
-  color: var(--color-primary);
 }
 
 .hero-visual-pill {
@@ -129,9 +121,5 @@
 
   .hero-photo-frame {
     max-width: 220px;
-  }
-
-  .hero-avatar {
-    font-size: 3rem;
   }
 }

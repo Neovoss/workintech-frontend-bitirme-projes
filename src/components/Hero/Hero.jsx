@@ -40,11 +40,11 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="hero-visual" aria-hidden="true">
+        <div className="hero-visual">
           <div className="hero-photo-frame">
-            <div className="hero-avatar">BB</div>
+            <img className="hero-photo" src="/profile.jpg" alt={t.hero.name} />
           </div>
-          <div className="hero-visual-pill" />
+          <div className="hero-visual-pill" aria-hidden="true" />
         </div>
       </div>
     </section>

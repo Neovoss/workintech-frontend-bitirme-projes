@@ -1,0 +1,137 @@
+.hero {
+  padding-block: 48px 64px;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-wave {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-line {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  max-width: 620px;
+}
+
+.hero-social {
+  display: flex;
+  gap: 18px;
+  margin-top: 32px;
+  font-size: 1.6rem;
+}
+
+.hero-social a {
+  color: var(--color-text);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.hero-social a:hover {
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.hero-status {
+  margin-top: 24px;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.hero-status strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.hero-invite {
+  margin-top: 6px;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.hero-invite a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+}
+
+.hero-photo-frame {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  background-color: var(--color-primary);
+  padding: 10px;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: calc(var(--radius-lg) - 6px);
+  background: linear-gradient(150deg, var(--color-primary-soft), var(--color-surface));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.hero-visual-pill {
+  position: absolute;
+  right: -10px;
+  bottom: 12%;
+  width: 90px;
+  height: 44px;
+  border-radius: 999px;
+  background-color: var(--color-primary);
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-line {
+    margin-inline: auto;
+  }
+
+  .hero-social {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    order: -1;
+    height: 260px;
+  }
+
+  .hero-photo-frame {
+    max-width: 220px;
+  }
+
+  .hero-avatar {
+    font-size: 3rem;
+  }
+}

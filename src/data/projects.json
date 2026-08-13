@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "tags": ["React", "Context API", "CSS3"],
+    "liveUrl": "https://project-7a8a-git-main-aetherion2.vercel.app",
+    "codeUrl": "https://github.com/Neovoss/project",
+    "title": { "tr": "Kişisel Portföy Sitesi", "en": "Personal Portfolio Site" },
+    "description": {
+      "tr": "Context API ile dil ve tema yönetimi, responsive tasarım ve statik JSON veri kullanılarak geliştirilen bu site.",
+      "en": "This very site, built with Context API for language/theme state, responsive design, and static JSON data."
+    }
+  },
+  {
+    "id": 2,
+    "tags": ["Python", "PyQt5", "SQLite", "ReportLab"],
+    "codeUrl": "https://github.com/Neovoss/teklif-uygulamasi",
+    "title": { "tr": "Teklif Hazırlama Programı", "en": "Quote Preparation App" },
+    "description": {
+      "tr": "Excel'den fiyat listesi içe aktaran, çoklu kalemli teklif oluşturup kâr marjını hesaplayan, Türkçe karakter destekli PDF çıktısı veren bir masaüstü uygulaması. Aynı veriye telefondan erişilebilen bir mobil arayüzü de var.",
+      "en": "A desktop app that imports price lists from Excel, builds multi-item quotes with live profit-margin calculation, and exports PDFs with Turkish character support. Also includes a mobile web view over the same database."
+    }
+  },
+  {
+    "id": 3,
+    "tags": ["Python", "YouTube Data API", "OAuth2"],
+    "codeUrl": "https://github.com/Neovoss/Youtube-otomation",
+    "title": { "tr": "YouTube Shorts Otomasyonu", "en": "YouTube Shorts Automation" },
+    "description": {
+      "tr": "YouTube Data API v3 üzerinden çalışan toplu video yükleme scripti; CSV kuyruk, günlük kota yönetimi, resumable yükleme ve COPPA (Made for Kids) uyumluluğu içerir.",
+      "en": "A bulk video upload script built on the YouTube Data API v3, with a CSV queue, daily quota management, resumable uploads, and COPPA (Made for Kids) compliance."
+    }
+  }
+]

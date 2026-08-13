@@ -1,0 +1,164 @@
+{
+  "tr": {
+    "nav": {
+      "brand": "Berke Yılmaz Berk",
+      "about": "Hakkımda",
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "contact": "İletişim",
+      "darkMode": "Karanlık Mod",
+      "switchTo": "İNGİLİZCE'YE GEÇ"
+    },
+    "hero": {
+      "wave": "Selam!",
+      "firstName": "Berke",
+      "name": "Berke Yılmaz Berk",
+      "role": "Frontend Developer",
+      "intro": "Ben",
+      "introEnd": ". Kullanıcı odaklı, sağlam ve ölçeklenebilir arayüzler kurabiliyorum. Tanışalım!",
+      "statusPrefix": "Şu anda",
+      "statusHighlight": "Workintech Frontend Bootcamp",
+      "statusSuffix": "mezunuyum, yeni fırsatlara açığım.",
+      "ctaText": "Ekibinize katılmak için davet edin",
+      "email": "berkee144@gmail.com"
+    },
+    "about": {
+      "eyebrow": "Profil",
+      "title": "Profile",
+      "infoTitle": "Temel Bilgiler",
+      "aboutTitle": "Hakkımda",
+      "birthDateLabel": "Doğum Tarihi",
+      "birthDate": "11.07.1996",
+      "cityLabel": "İkamet Şehri",
+      "city": "Ankara",
+      "educationLabel": "Eğitim Durumu",
+      "education": "Türk Hava Kurumu Üniversitesi, Lojistik Yönetimi (2019 Mezunu)",
+      "roleLabel": "Tercih Ettiği Rol",
+      "roleValue": "Frontend, UI",
+      "paragraphs": [
+        "Ankara'da yaşıyorum ve Workintech Frontend Bootcamp'te HTML, CSS ve JavaScript'ten React'e uzanan bir eğitim sürecinden geçtim. Kendimi bir 'rookie developer' olarak tanımlıyorum; bu süreçte component tabanlı düşünmeyi, state yönetimini ve kullanıcı deneyimini önceliklendiren arayüzler tasarlamayı öğrendim.",
+        "Birikim Mühendislik'teki iş hayatımın yanı sıra yazılım öğrenimime devam ediyorum. Detaylara verdiğim önem ve öğrenmeye açık yaklaşımımla, hem görsel olarak tutarlı hem de teknik olarak sağlam ürünler ortaya koymayı hedefliyorum."
+      ]
+    },
+    "skills": {
+      "eyebrow": "Yeteneklerim",
+      "title": "Neler Yapabiliyorum",
+      "subtitle": "Bootcamp boyunca üzerinde çalıştığım ve rahat hissettiğim teknolojiler."
+    },
+    "projects": {
+      "eyebrow": "Projelerim",
+      "title": "Son Çalışmalarım",
+      "subtitle": "Web dışında da geliştirdiğim, gerçek ihtiyaçlar için yazdığım projeler.",
+      "liveLabel": "Canlı Demo",
+      "codeLabel": "Kaynak Kod"
+    },
+    "contact": {
+      "eyebrow": "İletişim",
+      "title": "Birlikte Çalışalım",
+      "subtitle": "Bir projeniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? Aşağıdaki formu doldurmanız yeterli.",
+      "nameLabel": "Ad Soyad",
+      "namePlaceholder": "Adınız Soyadınız",
+      "emailLabel": "E-posta",
+      "emailPlaceholder": "ornek@mail.com",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Mesajınızı yazın...",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "successToast": "Mesajınız başarıyla gönderildi!",
+      "errorToast": "Bir şeyler ters gitti, lütfen tekrar deneyin.",
+      "validationToast": "Lütfen tüm alanları doldurun.",
+      "directLabel": "veya doğrudan yazın",
+      "nameError": "Adınızı en az 2 karakter girin.",
+      "emailError": "Geçerli bir e-posta adresi girin.",
+      "messageError": "Mesajınızı en az 10 karakter yazın."
+    },
+    "footer": {
+      "ctaStart": "Bir sonraki projede",
+      "ctaHighlight": "birlikte çalışalım",
+      "ctaEnd": "mı?",
+      "rights": "Tüm hakları saklıdır.",
+      "builtWith": "React ile geliştirildi."
+    }
+  },
+  "en": {
+    "nav": {
+      "brand": "Berke Yılmaz Berk",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "darkMode": "Dark Mode",
+      "switchTo": "SWITCH TO TURKISH"
+    },
+    "hero": {
+      "wave": "Hi!",
+      "firstName": "Berke",
+      "name": "Berke Yılmaz Berk",
+      "role": "Frontend Developer",
+      "intro": "I'm",
+      "introEnd": ". I can craft solid and scalable frontend products. Let's meet!",
+      "statusPrefix": "Currently a",
+      "statusHighlight": "Workintech Frontend Bootcamp",
+      "statusSuffix": "graduate, open to new opportunities.",
+      "ctaText": "Invite me to join your team",
+      "email": "berkee144@gmail.com"
+    },
+    "about": {
+      "eyebrow": "Profile",
+      "title": "Profile",
+      "infoTitle": "Basic Information",
+      "aboutTitle": "About me",
+      "birthDateLabel": "Birth Date",
+      "birthDate": "07.11.1996",
+      "cityLabel": "City",
+      "city": "Ankara",
+      "educationLabel": "Education",
+      "education": "Turkish Aeronautical Association University, Logistics Management (Graduated 2019)",
+      "roleLabel": "Preferred Role",
+      "roleValue": "Frontend, UI",
+      "paragraphs": [
+        "I'm based in Ankara and completed the Workintech Frontend Bootcamp, going from HTML, CSS and JavaScript all the way to React. I describe myself as a 'rookie developer' — along the way I learned to think in components, manage state, and design interfaces that put user experience first.",
+        "Alongside my work at Birikim Mühendislik, I continue learning software development. With attention to detail and an eagerness to learn, I aim to build products that are both visually consistent and technically solid."
+      ]
+    },
+    "skills": {
+      "eyebrow": "My Skills",
+      "title": "What I Can Do",
+      "subtitle": "Technologies I worked with throughout the bootcamp and feel comfortable with."
+    },
+    "projects": {
+      "eyebrow": "My Projects",
+      "title": "Recent Work",
+      "subtitle": "Projects beyond the web too, built for real needs.",
+      "liveLabel": "Live Demo",
+      "codeLabel": "Source Code"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's Work Together",
+      "subtitle": "Have a project in mind, or just want to say hi? Fill out the form below.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "example@mail.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message...",
+      "submit": "Send",
+      "sending": "Sending...",
+      "successToast": "Your message was sent successfully!",
+      "errorToast": "Something went wrong, please try again.",
+      "validationToast": "Please fill in all fields.",
+      "directLabel": "or reach out directly",
+      "nameError": "Please enter at least 2 characters.",
+      "emailError": "Please enter a valid email address.",
+      "messageError": "Please write at least 10 characters."
+    },
+    "footer": {
+      "ctaStart": "Let's",
+      "ctaHighlight": "work together",
+      "ctaEnd": "on your next product.",
+      "rights": "All rights reserved.",
+      "builtWith": "Built with React."
+    }
+  }
+}

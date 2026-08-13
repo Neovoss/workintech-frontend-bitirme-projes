@@ -1,0 +1,10 @@
+[
+  { "id": 1, "key": "html5", "name": "HTML5" },
+  { "id": 2, "key": "css3", "name": "CSS3" },
+  { "id": 3, "key": "javascript", "name": "JavaScript" },
+  { "id": 4, "key": "react", "name": "React" },
+  { "id": 5, "key": "nodejs", "name": "Node.js" },
+  { "id": 6, "key": "git", "name": "Git" },
+  { "id": 7, "key": "figma", "name": "Figma" },
+  { "id": 8, "key": "vscode", "name": "VS Code" }
+]

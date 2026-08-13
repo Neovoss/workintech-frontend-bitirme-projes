@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+.claude/
+Example txt file.txt
+Another example txt file.txt
+erp/

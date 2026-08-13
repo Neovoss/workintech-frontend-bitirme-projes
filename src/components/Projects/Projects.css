@@ -1,0 +1,129 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 460px));
+  justify-content: center;
+  gap: 32px;
+}
+
+.project-card {
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-0 {
+  background-color: #dceefb;
+}
+
+.project-card-1 {
+  background-color: #dff5e8;
+}
+
+.project-card-2 {
+  background-color: #fbe1ee;
+}
+
+.project-card-3 {
+  background-color: #ede3fb;
+}
+
+[data-theme='dark'] .project-card-0 {
+  background-color: #16283a;
+}
+
+[data-theme='dark'] .project-card-1 {
+  background-color: #14301f;
+}
+
+[data-theme='dark'] .project-card-2 {
+  background-color: #3a1b2a;
+}
+
+[data-theme='dark'] .project-card-3 {
+  background-color: #251b3a;
+}
+
+.project-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.project-description {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+.project-links {
+  display: flex;
+  gap: 28px;
+  margin-top: 20px;
+}
+
+.project-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--transition-fast), color var(--transition-fast);
+}
+
+.project-link:hover {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
+}
+
+.project-mockup {
+  margin-top: 28px;
+}
+
+.project-mockup-screen {
+  aspect-ratio: 16 / 10;
+  border-radius: 12px 12px 3px 3px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-text));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.project-mockup::after {
+  content: '';
+  display: block;
+  height: 10px;
+  margin: 0 -5%;
+  background-color: #d9d9d9;
+  border-radius: 0 0 6px 6px;
+}
+
+@media (max-width: 560px) {
+  .project-card {
+    padding: 28px;
+  }
+}
